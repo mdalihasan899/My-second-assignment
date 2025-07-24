@@ -3,101 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-second-assignment</title>
+    <title>My second assignment</title>
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/tailwind.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <header>
-        <!-- nav section -->
-        <section class="nav-container flex justify-between max-w-[1140px] m-auto items-center mt-8 font-inter">
-            <img src="./assets/logo.png" alt="">
-            <ul class="flex">
-                <li class="mr-12 font-bold max-sm:hidden">Home</li>
-                <li class="mr-12 text-[#8987A1] max-sm:hidden">Shop</li>
-                <li class="mr-12 text-[#8987A1] max-sm:hidden">About us</li>
-                <li class="mr-2.5 "><img height="24" width="24"  src="./assets/trolley.png" alt=""></li>
-                <li class="mr-12">Cart ($56)</li>
-            </ul>
 
-        </section>
-
-        <!-- banner section -->
-         <section class="banner-section max-w-[1140px] h-[467px] m-auto bg-no-repeat bg-cover bg-center mt-[120px] flex max-sm:flex-col max-sm:flex-col-reverse  items-end max-sm:items-center ">
-
-            <div class="banner-des max-sm:pl-4 max-sm:pr-4 ">
-                <h1 class="font-noto text-[4.0625rem] max-sm:text-[1.5rem] font-bold text-[#000000]">
-                    ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
-                </h1>
-                <p class=" font-inter text-[1.375rem] max-sm:text-[1rem] font-color-black">
-                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
-                </p>
-            </div>
-            <div class="max-sm:mt-7 max-sm:mb-7 "><img src="./assets/hero-flower.png" alt=""></div>
-         </section>
     </header>
-    <main>
-        <!-- Plants Section -->
-         <section class="max-w-[1140px] m-auto">
-            <div class="text-center mt-[120px]">
-                <h1 class="font-bold  text-[3.125rem] font-noto"><span class="text-[#E95A08]">Our</span> Plants</h1>
-                <p class="font-inter font-color-black">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    <main>        <!-- Plants Section -->
+         <section class="plants-section">
+            <div class="plant-header">
+                <h1 class="font-noto"><span class="our">Our</span> Plants</h1>
+                <p class="font-inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
 
             <!-- card -->
-            <div class="grid grid-cols-4 gap-7 pt-12">
-                <div class="font-inter w-[270px] text-center">
+            <div class="plant-container">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
-                <div class="font-inter w-[270px] text-center">
+                <div class="">
                     <img src="./assets/sample-flower-image.png" alt="">
-                    <h5 class="mt-5 mb-1 font-medium text-[1.375rem]">Lily Blossom</h5>
-                    <p class="mb-4 font-bold text-[1.375rem]">20 USD</p>
-                    <button class="bg-[#E95A08] w-[100%] text-white pt-3 pb-3 font-semibold" type="submit">ADD TO CART</button>
+                    <h5 class="">Lily Blossom</h5>
+                    <p class="">20 USD</p>
+                    <button class="cart-btn" type="submit">ADD TO CART</button>
                 </div>
             </div>
          </section>
     </main>
-    <footer></footer>
 </body>
 </html>
