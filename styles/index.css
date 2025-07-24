@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
+body{
+    margin: 0;
+}
 
 /* shared styles */
 .font-noto{
@@ -99,21 +101,78 @@
     border: none;
 
 }
+/* Join Section */
+
+
+.join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    margin: 0px;
+   
+    height: 533px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 300px;
+}
+.join-container{
+    justify-items: center;
+}
+
+.join-section h1{
+    font-size: 3.125rem;
+    color: #ffffff;
+    padding: 180px 0px 0px;
+    font-weight: bold;
+}
+.subscribe-container{
+    display: flex;
+}
+
+.subscribe-container input{
+    padding: 15.5px 540px 15.5px 20px;
+    border: none;
+    background-color: #ffffff;
+    align-items: center;
+}
+.subscribe-btn{
+    border: none; 
+    padding: 19px 53.5px;
+    background-color: #E95A08;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .hero-section{
         margin: 0px 16px;
     }
-    .banner-section{
-        flex-direction: column-reverse;
-    }
+    
     .logo{
         width: 63px;
         height: 38px;
     }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    
     .banner-head{
         font-size: 1.5rem;
     }
+    .banner-info{
+        margin: 10px 16px 50px;
+    }
+    
     .banner-section img{
         width: 100%;
     }
@@ -125,9 +184,17 @@
     .plant-header{
         text-align: center;
     }
+    .plant-header h1{
+        margin-bottom: 16px;
+    }
+    .plant-header p{
+        width: 320px;
+        margin: 0 auto;
+    }
     .plant-container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+        margin: 28px 14px;
     }
 
     .plant-container h5{
@@ -153,5 +220,15 @@
 
     .plant-container div{
         width: 100%;
+    }
+    /* join */
+    .join-section h1{
+        font-size: 1.25rem;
+    }
+    .subscribe-container input{
+        padding: 15.5px 90px 15.5px 20px;
+    }
+    .subscribe-btn{
+        padding: 19px 12px;
     }
 }
