@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 
 /* shared styles */
 .font-noto{
@@ -16,6 +12,40 @@
     font-family: "Inter", sans-serif;
 }
 
+/* nav styles */
+.hero-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+}
+.nav-container ul li:nth-child(-n+3){
+    padding-right: 48px;
+}
+
+/* banner style */
+.banner-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+}
+.banner-head{
+    font-weight: bold;
+    font-size: 4.0625rem;
+}
+.banner-titel{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
 /* plant section */
 .plants-section{
     max-width: 1140px;
@@ -38,7 +68,6 @@
 }
 
 .plant-container{
-    max-width: ;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -72,6 +101,27 @@
 }
 
 @media screen and (max-width:576px) {
+    .hero-section{
+        margin: 0px 16px;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .logo{
+        width: 63px;
+        height: 38px;
+    }
+    .banner-head{
+        font-size: 1.5rem;
+    }
+    .banner-section img{
+        width: 100%;
+    }
+
+    /* nav bar */
+    .nav-container ul li:nth-child(-n+3){
+        display: none;
+    }
     .plant-header{
         text-align: center;
     }
