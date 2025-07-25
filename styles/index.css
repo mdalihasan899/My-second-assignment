@@ -132,7 +132,7 @@ body{
     
 }
 .plants-lover-right{
-    margin: 60px;
+    margin-left: 70px;
 }
 .plants-lover-right h1{
     font-family: "Noto Serif", serif;
@@ -151,7 +151,7 @@ body{
 /* Latest Deals */
 .latest-deals{
     width: 1140px;
-    margin: 110px auto;
+    margin: 0px auto;
 }
 .deals-container{
     text-align: center;
@@ -342,6 +342,8 @@ body{
     .nav-container ul li:nth-child(-n+3){
         display: none;
     }
+
+    /* plant section */
     .plant-header{
         text-align: center;
     }
@@ -382,6 +384,84 @@ body{
     .plant-container div{
         width: 100%;
     }
+
+    /* plant lover section */
+    .plants-lover-section,
+    .plants-lover-left img{
+        width: 100%;
+    }
+    
+    .plants-lover-section{
+        margin-top: 41.5px;
+    }
+    .plants-lover-left img{
+        height: 500px;
+    }
+    .plants-lover-right{
+        margin: 0px 17px;
+    }
+    .plants-lover-right h1{
+        font-size: 1.5rem;
+    }
+
+    /* latest deals */
+    .deals,
+    .plants-lover-section{
+        flex-direction: column;
+    }
+    .latest-deals{
+        width: 95%;
+        padding: 12px;
+    }
+    .deals{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        align-items: start;
+        justify-content: flex-start;
+    }
+    .deals-laft{
+        width: 100%;
+    }
+    .bloom-plant{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .ana-plant{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .zabo-plant{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 25px;
+        height: 200px;
+    }
+    .zabo-plant h3{
+    padding-top: 30px;
+    font-size: 1.5rem;
+    
+    }
+    .zabo-plant p a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    }
+    .deals-container{
+        text-align: center;
+    }
+    .deals-container h1{
+        font-size: 1.5rem;
+    }
+    .deals-container p,
+    .plants-lover-right li{
+        font-size: 0.875rem;
+    }
+
     /* join */
     .join-section h1{
         font-size: 1.25rem;
@@ -402,48 +482,7 @@ body{
         margin: 20px 0px;
     }
 
-    /* latest deals */
-    .deals,
-    .plants-lover-section{
-        flex-direction: column;
-    }
-    .latest-deals{
-        width: 313px;
-    }
-    .deals{
-        width: 361px;
-        height: 100%;
-        align-items: start;
-        justify-content: flex-start;
-    }
-    .zabo-plant{
-        width: 361px;
-        height: 171px;
-    }
-    .deals-container h1{
-        font-size: 1.5rem;
-    }
-    .deals-container p,
-    .plants-lover-right li{
-        font-size: 0.875rem;
-    }
     
-    .plants-lover-section,
-    .plants-lover-left img{
-        width: 100%;
-    }
     
-    .plants-lover-section{
-        margin-top: 41.5px;
-    }
-    .plants-lover-left img{
-        height: 420px;
-    }
-    .plants-lover-right{
-        margin: 0px 17px;
-    }
-    .plants-lover-right h1{
-        font-size: 1.5rem;
-    }
     
 }
