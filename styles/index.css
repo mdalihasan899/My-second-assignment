@@ -129,7 +129,7 @@ body{
     right: -20%;
     top: -20%;
     transform: translate(-0% -100%);
-    
+    animation: spin 10s linear infinite;
 }
 .plants-lover-right{
     margin-left: 70px;
@@ -478,8 +478,14 @@ body{
         grid-template-columns: 1fr;
         margin: 20px 0px;
     }
+}
 
-    
-    
-    
+/* animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
